@@ -1,0 +1,19 @@
+{
+    "name": "jesusch/phpDuplicates",
+    "bin": ["bin/app"],
+	"config": {
+		"bin-dir": "bin"
+	},
+	"require": {
+		"monolog/monolog": "*",
+		"symfony/console": "*",
+		"symfony/finder": "*",
+		"doctrine/orm": "*",
+		"symfony/yaml": "2.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"jesusch\\phpDuplicates\\": "src/"
+		}
+	}
+}
